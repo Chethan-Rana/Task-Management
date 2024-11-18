@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.db
+
+# Poetry
+.poetry/
+poetry.lock
+
+# Environment variables
+.env
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Docker
+docker-compose.override.yml
+Dockerfile*
+*.log
+.docker/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
