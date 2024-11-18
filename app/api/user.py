@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 
 from app.core.user import create_user, update_user, get_all_users, get_user, delete_user
-from database.database import get_db
+from app.database.database import get_db
 from app.schemas.user import User, UserData
 
 router = APIRouter(prefix="/users")

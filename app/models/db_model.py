@@ -1,8 +1,7 @@
 from sqlalchemy import Column, Integer, String, Date, ForeignKey, Enum
-from typing import Optional
 from sqlalchemy.orm import relationship
 import enum
-from database.database import Base
+from app.database.database import Base
 
 
 class TaskStatus(enum.Enum):

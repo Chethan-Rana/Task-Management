@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import uvicorn
 
 from app.api import user, tasks
-from database.database import Base, engine
+from app.database.database import Base, engine
 
 Base.metadata.create_all(bind=engine)
 

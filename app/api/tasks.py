@@ -8,7 +8,7 @@ from app.core.tasks import (
     update_task,
     delete_task,
 )
-from database.database import get_db
+from app.database.database import get_db
 from app.schemas.tasks import TaskDetail, Task
 
 router = APIRouter(prefix="/tasks")
